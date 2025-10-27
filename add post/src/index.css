@@ -1,0 +1,29 @@
+body{
+background-color: hsl(0 ,0%,60%);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.pfp{
+    border-radius: 50%;
+}
+
+.card{
+    background-color: hsl(0 ,0%,100%);
+    border: 1px solid hsl(0 ,0%,70%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px hsl(0 , 0%,0%,0.1) ; /*1st is for horizontal offset , 2nd for vertical offset 3rd for blur radius */
+    padding:20px;
+    display:inline-block;
+    max-width: 250px;
+    text-align: center;
+    margin: 2px;
+}
+
+.btn{
+    font-size: 1.2rem;;
+    margin: 2px;
+}
