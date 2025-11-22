@@ -1,6 +1,7 @@
-import { iconSizeVariants, IconsProps } from ".";
+import { iconSizeVariants } from ".";
+import type {  IconProps }from "."
 
-export const Shareicon = (props:IconsProps) => {
+export const Shareicon = (props:IconProps) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

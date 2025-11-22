@@ -7,13 +7,13 @@ function App() {
   return (
     <div>
       <Button
-        startIcon={<Shareicon />}
+        startIcon={<Shareicon size={"lg"} />}
         variant="primary"
         size="sm"
         text="share"
       />
       <Button
-        startIcon={<Plusicon />}
+        startIcon={<Plusicon size={"lg"} />}
         variant="secondary"
         size="md"
         text="Add content"

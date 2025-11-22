@@ -1,6 +1,8 @@
-import{ iconSizeVariants, IconsProps } from ".";
+import { iconSizeVariants } from ".";
+import type { IconProps } from ".";
 
-export const Plusicon = (props: IconsProps) => {
+
+export const Plusicon = (props: IconProps) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -18,3 +20,4 @@ export const Plusicon = (props: IconsProps) => {
     </svg>
   );
 };
+
