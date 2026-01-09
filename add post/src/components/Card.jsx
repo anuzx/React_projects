@@ -7,7 +7,7 @@ export default function Card({ name,description }) {
         <img
           className="pfp"
           alt="pfp"
-          src="../src/assets/pfp.png"
+          src="../src/assets/pfp.jpg"
           width={90}
         ></img>
               <h2>{name}</h2>

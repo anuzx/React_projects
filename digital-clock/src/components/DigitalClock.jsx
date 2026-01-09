@@ -9,7 +9,7 @@ function DigitalClock() {
     }, 1000);
 
     return () => {
-      clearInterval(intervalId);
+      clearInterval(intervalId); //cleanup code runs on unmount or before re running the effect
     };
   }, []);
 
