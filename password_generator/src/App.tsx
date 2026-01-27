@@ -8,7 +8,7 @@ function App() {
 
   //ref hook
 
-  const passwordRef = useRef(null);
+  const passwordRef = useRef<HTMLInputElement | null>(null);
 
   const copyPass = useCallback(() => {
     passwordRef.current?.select();
@@ -23,7 +23,7 @@ function App() {
     if (special) str += "!@#$%^&*()_+<>?:";
 
     for (let i = 1; i <= length; i++) {
-      let char = Math.floor(Math.random() * str.length);
+      const char = Math.floor(Math.random() * str.length);
       pass += str.charAt(char);
     }
     setPassword(pass);
